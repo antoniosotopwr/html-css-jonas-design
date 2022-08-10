@@ -9,6 +9,10 @@ FONT SIZE SYSTEM (px)
 MAIN COLOR: #087f5b
 GREY COLOR: #343a40
 */
+:root {
+  --main: #087f5b;
+  --grey: #343a40;
+}
 * {
   margin: 0;
   padding: 0;
@@ -20,7 +24,7 @@ GREY COLOR: #343a40
 /* ------------------------ */
 body {
   font-family: "Inter", sans-serif;
-  color: #343a40;
+  color: var(--grey);
 }
 
 .container {
