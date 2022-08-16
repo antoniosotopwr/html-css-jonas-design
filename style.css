@@ -59,12 +59,13 @@ h2 {
   font-weight: 500;
   display: inline-block;
   border-radius: 100px;
+  transition: 0.5s;
 }
 
 .btn:hover,
 .btn:active {
   background-color: #099268;
-  /* box-shadow: 5px 5px 20px 1px rgba(0, 0, 0, 0.2); */
+  box-shadow: 5px 5px 20px 1px rgba(0, 0, 0, 0.3);
 }
 
 .btn--big {
